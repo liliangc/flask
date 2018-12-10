@@ -3,8 +3,8 @@ Please use the #pocoo IRC channel on freenode or Stack Overflow for general
 questions about using Flask or issues not related to Flask.**
 
 If you'd like to report a bug in Flask, fill out the template below. Provide
-any any extra information that may be useful / related to your problem.
-Ideally, create an [MCVE](http://stackoverflow.com/help/mcve), which helps us
+any extra information that may be useful / related to your problem.
+Ideally, create an [MCVE](https://stackoverflow.com/help/mcve), which helps us
 understand the problem and helps check that it is not caused by something in
 your code.
 

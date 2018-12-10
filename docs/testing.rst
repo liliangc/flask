@@ -18,7 +18,7 @@ You can then use that with your favourite testing solution.
 In this documentation we will use the `pytest`_ package as the base
 framework for our tests. You can install it with ``pip``, like so::
 
-    pip install pytest
+    $ pip install pytest
 
 .. _pytest:
    https://pytest.org
@@ -388,7 +388,7 @@ very convenient::
 
     with app.test_client() as c:
         rv = c.post('/api/auth', json={
-            'username': 'flask', 'password': 'secret'
+            'email': 'flask@example.com', 'password': 'secret'
         })
         json_data = rv.get_json()
         assert verify_token(email, json_data['token'])
